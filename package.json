@@ -1,0 +1,33 @@
+{
+  "name": "or-throw",
+  "version": "1.0.0",
+  "description": "Returns the value if truthy or throws an error.",
+  "funding": "https://github.com/mathieuprog/or-throw?sponsor=1",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "Mathieu Decaffmeyer",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.1",
+    "rollup": "^3.29.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.4"
+  },
+  "bugs": {
+    "url": "https://github.com/mathieuprog/or-throw/issues"
+  },
+  "homepage": "https://github.com/mathieuprog/or-throw#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieuprog/or-throw.git"
+  }
+}
