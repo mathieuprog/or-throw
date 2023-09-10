@@ -15,7 +15,6 @@ test('orThrow', () => {
   expect(() => orThrow(0)).toThrow();
   expect(() => orThrow('')).toThrow();
   expect(() => orThrow(null, 'error message')).toThrow('error message');
-  expect(orThrow(1)).toBe(1);
-
   expect(() => orThrow(false, new ValidationError())).toThrow();
+  expect(orThrow(1)).toBe(1);
 });
