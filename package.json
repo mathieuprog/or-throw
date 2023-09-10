@@ -1,6 +1,6 @@
 {
   "name": "or-throw",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Returns the value if truthy or throws an error.",
   "funding": "https://github.com/mathieuprog/or-throw?sponsor=1",
   "source": "src/index.ts",
